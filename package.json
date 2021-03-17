@@ -1,0 +1,25 @@
+{
+  "name": "world-sim",
+  "version": "0.0.0",
+  "description": "World sim with characters",
+  "main": "index.js",
+  "scripts": {
+    "start": "node -r dotenv/config index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/CrypticSafe5/world-sim.git"
+  },
+  "author": "CrypticSafe5",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/CrypticSafe5/world-sim/issues"
+  },
+  "homepage": "https://github.com/CrypticSafe5/world-sim#readme",
+  "devDependencies": {
+    "node-env": "^0.1.6"
+  },
+  "dependencies": {
+    "dotenv": "^8.2.0"
+  }
+}
