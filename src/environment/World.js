@@ -1,14 +1,14 @@
-const villageData = require('../data/villages.json');
-const dayCycle = require('../config/dailyCycle.json');
-const seasonCycle = require('../config/seasonalCycle.json');
+const villageData = require('../../data/villages.json');
+const dayCycle = require('../../config/dailyCycle.json');
+const seasonCycle = require('../../config/seasonalCycle.json');
 const Village = require('./Village');
 
 class World {
 	constructor() {
 		// Time stats
-		this._year = -1; // To set the season to 0 for initialization
+		this._year = -1; // To set the year to 0 for initialization
 		this._season = -1; // To set the season to 0 for initialization
-		this._day = -1; // To set the season to 0 for initialization
+		this._day = -1; // To set the day to 0 for initialization
 		this._time = -1; // To set the time to 0 for initialization
 		this._dayCycle = null;
 
