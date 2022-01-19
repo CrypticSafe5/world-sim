@@ -1,6 +1,6 @@
 const NPC = require('../NPC');
 
-class Guard {
+class Guard extends NPC {
 	constructor() {
 		this.patrol = this.patrol.bind(this);
 	}
